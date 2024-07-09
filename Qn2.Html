@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Links Table</title>
+</head>
+<body>
+<h1><u>Form</u></h1>
+<br>
+<h2>Links Generator</h2>
+<br>
+<form id="linkForm">
+    <label for="start">Start Position:</label>
+    <input type="number" id="start" name="start" value="1" min="1">
+    <label for="end">End Position:</label>
+    <input type="number" id="end" name="end" value="1" min="1">
+    <br>
+   
+</form>
+
+<p id="rangeMessage"></p>
+<p id="errorMessage" style="color: gray;"></p>
+
+<button type="button" onclick="displayTable()">display Table<table id="linksTable" border="1"></button>
+    <thead>
+    </thead>
+    <tbody>
+    </tbody>
+</table>
+
+<script src="script.js"></script>
+
+</body>
+</html>
